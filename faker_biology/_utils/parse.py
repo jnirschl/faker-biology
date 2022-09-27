@@ -56,7 +56,7 @@ def pop_stack(stack, diff: int, to: int):
         ## uses fact all dicts are ordered by entry
         key = list(stack[-1].keys())[-1]
         stack[-1][key] = nested
-        diff = diff - 1
+        diff -= 1
 
 
 def get_depth(line):

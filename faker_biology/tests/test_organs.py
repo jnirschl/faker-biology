@@ -21,9 +21,9 @@ class OrganTest(unittest.TestCase):
         self.assertEqual(13, len(organ_provider.categories()))
 
     def test_random_organ(self):
-        organ_set = set([fake.unique.organ() for i in range(15)])
+        organ_set = {fake.unique.organ() for _ in range(15)}
         self.assertEqual(15, len(organ_set))
 
     def test_non_reproductive_organ(self):
-        organs = [fake.unique.non_reproductive_organ() for i in range(70)]
+        organs = [fake.unique.non_reproductive_organ() for _ in range(70)]
         self.assertFalse("Ovaries" in organs)

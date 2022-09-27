@@ -72,7 +72,7 @@ class Bioseq(BaseProvider):
             triplet = self.dna(3)
             if triplet not in dna_data.stop_codons:
                 codons.append(triplet)
-                i = i + 1
+                i += 1
 
         return "ATG" + "".join(codons) + self.stop_codon()
 
@@ -92,7 +92,7 @@ class Bioseq(BaseProvider):
             A Protein sequence.
 
         """
-        return "M" + self._seq(length, dna_data.protein_letters)
+        return f"M{self._seq(length, dna_data.protein_letters)}"
 
     def protein_name(self) -> str:
         """
@@ -184,7 +184,7 @@ class Bioseq(BaseProvider):
     def _seq(self, length, alphabet):
         alphabet_length = len(alphabet) - 1
         seq = []
-        for i in range(length):
+        for _ in range(length):
             j = random.randint(0, alphabet_length)
             seq.append(alphabet[j])
         return "".join(seq)

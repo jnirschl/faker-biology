@@ -18,16 +18,15 @@ class Organelle(BaseProvider):
         super().__init__(generator)
         
     def _all(self):
-        maj = [x for x in organelle_data.eukaryote_organelles['eukaryotes_major']]
-        minor = [x  for x in organelle_data.eukaryote_organelles['eukaryotes_minor']]
+        maj = list(organelle_data.eukaryote_organelles['eukaryotes_major'])
+        minor = list(organelle_data.eukaryote_organelles['eukaryotes_minor'])
         maj.extend(minor)
         return maj
     
     
     def _filtered(self, terms):
         orgs = self._all()
-        filtered = [x['name'] for x in  filter(lambda x:x['distribution'] in terms, orgs )]
-        return filtered
+        return [x['name'] for x in  filter(lambda x:x['distribution'] in terms, orgs )]
         
     def common_eukaryotic_organelle(self) -> str:
         """

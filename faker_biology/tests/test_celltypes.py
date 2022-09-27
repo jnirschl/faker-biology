@@ -21,5 +21,5 @@ class OrganTest(unittest.TestCase):
         self.assertEqual(3, len(cell_provider.categories()))
 
     def test_random_cell_type(self):
-        cells = set([fake.unique.celltype() for i in range(15)])
+        cells = {fake.unique.celltype() for _ in range(15)}
         self.assertEqual(15, len(cells))

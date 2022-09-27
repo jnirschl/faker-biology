@@ -37,8 +37,6 @@ class BioProvider(BaseProvider):
         nodes = data.keys()
         for key in nodes:
             subnode = data[key]
+            leaves.append(key)
             if len(subnode) > 0:
-                leaves.append(key)
                 self._dict_leaves(subnode, leaves)
-            else:
-                leaves.append(key)

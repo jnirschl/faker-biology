@@ -18,9 +18,9 @@ re_provider = Antibody(None)
 
 class AntibodyTest(unittest.TestCase):
     def test_random_antibody_isotype(self):
-        for i in range(10):
+        for _ in range(10):
             fake.antibody_isotype()
 
     def test_random_antibody_application(self):
-        for i in range(10):
+        for _ in range(10):
             fake.antibody_application()
