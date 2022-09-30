@@ -1,0 +1,49 @@
+Group,Cell line,Cell Type,Species,Tissue,Medium
+mammalian,293,fibroblast,Homo sapiens,embryonic kidney,MEM and 10% FBS
+mammalian,3T6,fibroblast,Mus musculus,embryo,DMEM and 10% FBS
+mammalian,A549,epithelial,Homo sapiens,lung carcinoma,F-12K and 10% FBS
+mammalian,A9,fibroblast,Mus musculus,connective tissue,DMEM and 10% FBS
+mammalian,AtT-20,epithelial,Mus musculus,pituitary tumor,"F-10, 15% horse serum and 2.5% FBS"
+mammalian,BALB/3T3,fibroblast,Mus musculus,embryo,DMEM and 10% FBS
+mammalian,BHK-21,fibroblast,Mesocricetus auratus,kidney,GMEM and 10% FBS or MEM and 10% FBS plus NEAA
+mammalian,BHL-100,epithelial,Homo sapiens,breast,McCoy's 5A and 10% FBS
+mammalian,BT,fibroblast,Bos taurus,nasal turbinate cells,MEM and 10% FBS plus NEAA
+mammalian,Caco-2,epithelial,Homo sapiens,colon adeno carcinoma,MEM and 20% FBS plus NEAA
+mammalian,Chang,epithelial,Homo sapiens,liver,BME and 10% calf serum
+mammalian,CHO-K1,epithelial,Cricetulus griseus,ovary,F-12 and 10% FBS
+mammalian,Clone 9,epithelial,Rattus norvegicus,liver,F-12K and 10% FBS
+mammalian,Clone M-3,epithelial,Mus musculus,melanoma,"F-10, 15% horse serum and 2.5% FBS"
+mammalian,"COS-1, COS-3, COS-7",fibroblast,Cercopithecus aethiops,kidney,DMEM and 10% FBS
+mammalian,CRFK,epithelial,Felis catus,kidney,MEM and 10% FBS plus NEAA
+mammalian,CV-1,fibroblast,monkey,kidney,MEM and 10% FBS
+mammalian,D-17,epithelial,dog,osteosarcoma,MEM and 10% FBS and NEAA
+mammalian,Daudi,lymphoblast,Homo sapiens,blood from a lymphoma patient,RPMI-1640 and 10% FBS
+mammalian,"GH1, GH3",epithelial,Rattus norvegicus,pituitary tumor,"F-10, 15% horse serum and 2.5% FBS"
+mammalian,H9,lymphoblast,Homo sapiens,T-cell lymphoma,RPMI-1640 and 20% FBS
+mammalian,HaK,epithelial,hamster,kidney,BME and 10% calf serum
+mammalian,HCT-15,epithelial,Homo sapiens,colorectal adenocarcinoma,RPMI-1640 and 10% FBS
+mammalian,HeLa,epithelial,Homo sapiens,cervix carcinoma,"MEM and 10% FBS plus NEAA (in suspension, S-MEM)"
+mammalian,HEp-2,epithelial,Homo sapiens,larynx carcinoma,MEM and 10% FBS
+mammalian,HL-60,lymphoblast,Homo sapiens,promyelocytic leukemia,RPMI-1640 and 20% FBS
+mammalian,HT-1080,epithelial,Homo sapiens,fibrosarcoma,MEM and 10% HI FBS plus NEAA
+mammalian,HT-29,epithelial,Homo sapiens,colon adenocarcinoma,McCoy's 5A and 10% FBS
+mammalian,HUVEC,endothelial,Homo sapiens,umbilical cord,F-12K and 10% FBS plus 100 µg/ml heparin
+mammalian,I-10,epithelial,Mus musculus,testicular tumor,"F-10, 15% horse serum and 2.5% FBS"
+mammalian,IM-9,lymphoblast,Homo sapiens,marrow from myeloma patient,RPMI-1640 and 10% FBS
+mammalian,JEG-2,epithelial,Homo sapiens,choriocarcinoma,MEM and 10% FBS
+mammalian,Jensen,fibroblast,Rattus norvegicus,sarcoma,McCoy's 5A and 5% FBS
+mammalian,Jurkat,lymphoblast,Homo sapiens,lymphoma,RPMI-1640 and 10% FBS
+mammalian,K-562,lymphoblast,Homo sapiens,myelogenous leukemia,RPMI-1640 and 10% FBS
+mammalian,KB,epithelial,Homo sapiens,oral carcinoma,MEM and 10% FBS plus NEAA
+mammalian,KG-1,myeloblast,Homo sapiens,marrow from erythroleukemia patient,IMDM and 20% FBS
+mammalian,L2,epithelial,Rattus norvegicus,lung,F-12K and 10% FBS
+mammalian,LLC-WRC 256,epithelial,Rattus norvegicus,carcinoma,Medium 199 and 5% horse serum
+mammalian,McCoy,fibroblast,Mus musculus,unknown,MEM and 10% FBS
+mammalian,MCF7,epithelial,Homo sapiens,breast adenocarcinoma,MEM and 10% FBS plus NEAA and 10 µg/ml insulin
+mammalian,WI-38,epithelial,Homo sapiens,embryonic lung,BME and 10% FBS
+mammalian,WISH,epithelial,Homo sapiens,amnion,BME and 10% FBS
+mammalian,XC,epithelial,Rattus norvegicus,sarcoma,MEM and 10% FBS plus NEAA
+mammalian,Y-1,epithelial,Mus musculus,tumor of adrenal,"F-10, 15% horse serum and 2.5% FBS"
+insect,"Sf9, Sf21",,Spodoptera frugiperda,pupa ovary,"TNM-FH and 10% FBS, or Sf-900 II SFM (serum-free), or Sf-900™ III SFM (serum-free)"
+insect,High Five™ (BTI-TN-5B1-4),,Trichoplusia ni,ovary,"TNM-FH and 10% FBS, or Express Five® SFM (serum-free)"
+insect,"Schneider 2 (S2)",,Drosophila melanogaster, ,Schneider’s Drosophila medium and 10% heat-inactivated FBS

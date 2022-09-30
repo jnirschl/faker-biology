@@ -21,10 +21,25 @@ class TestCellLineProvider(unittest.TestCase):
 
     def test_random_cell_line(self):
         """Test return of random cell line."""
-        for _ in range(10):
+        for _ in range(5):
             fake.cell_line()
 
-    def test_random_cell_line_human(self):
+    def test_random_human_cell_line(self):
         """Test that cell line returns a valid cell line filtered by species."""
-        for _ in range(10):
+        for _ in range(5):
             fake.cell_line(species="Homo sapiens")
+
+    def test_random_non_human_cell_line(self):
+        """Test that cell line returns a valid cell line filtered by species."""
+        for _ in range(5):
+            fake.cell_line(species="Nonhuman")
+
+    def test_invalid_cell_line(self):
+        """Test that ValueError is raised for invalid cell line."""
+        invalid_species = [
+            "Delphinus delphis",
+            "Panaspis breviceps",
+            "Tyrannosaurus rex",
+        ]
+        for elem in invalid_species:
+            self.assertRaises(ValueError, fake.cell_line, species=elem)
