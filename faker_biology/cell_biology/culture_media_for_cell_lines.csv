@@ -15,12 +15,12 @@ mammalian,Clone 9,epithelial,Rattus norvegicus,liver,F-12K and 10% FBS
 mammalian,Clone M-3,epithelial,Mus musculus,melanoma,"F-10, 15% horse serum and 2.5% FBS"
 mammalian,"COS-1, COS-3, COS-7",fibroblast,Cercopithecus aethiops,kidney,DMEM and 10% FBS
 mammalian,CRFK,epithelial,Felis catus,kidney,MEM and 10% FBS plus NEAA
-mammalian,CV-1,fibroblast,monkey,kidney,MEM and 10% FBS
-mammalian,D-17,epithelial,dog,osteosarcoma,MEM and 10% FBS and NEAA
+mammalian,CV-1,fibroblast,Cercopithecus aethiops ,kidney,MEM and 10% FBS
+mammalian,D-17,epithelial,Canis familiaris,osteosarcoma,MEM and 10% FBS and NEAA
 mammalian,Daudi,lymphoblast,Homo sapiens,blood from a lymphoma patient,RPMI-1640 and 10% FBS
 mammalian,"GH1, GH3",epithelial,Rattus norvegicus,pituitary tumor,"F-10, 15% horse serum and 2.5% FBS"
 mammalian,H9,lymphoblast,Homo sapiens,T-cell lymphoma,RPMI-1640 and 20% FBS
-mammalian,HaK,epithelial,hamster,kidney,BME and 10% calf serum
+mammalian,HaK,epithelial,Mesocricetus auratus,kidney,BME and 10% calf serum
 mammalian,HCT-15,epithelial,Homo sapiens,colorectal adenocarcinoma,RPMI-1640 and 10% FBS
 mammalian,HeLa,epithelial,Homo sapiens,cervix carcinoma,"MEM and 10% FBS plus NEAA (in suspension, S-MEM)"
 mammalian,HEp-2,epithelial,Homo sapiens,larynx carcinoma,MEM and 10% FBS
@@ -45,5 +45,5 @@ mammalian,WISH,epithelial,Homo sapiens,amnion,BME and 10% FBS
 mammalian,XC,epithelial,Rattus norvegicus,sarcoma,MEM and 10% FBS plus NEAA
 mammalian,Y-1,epithelial,Mus musculus,tumor of adrenal,"F-10, 15% horse serum and 2.5% FBS"
 insect,"Sf9, Sf21",,Spodoptera frugiperda,pupa ovary,"TNM-FH and 10% FBS, or Sf-900 II SFM (serum-free), or Sf-900™ III SFM (serum-free)"
-insect,High Five™ (BTI-TN-5B1-4),,Trichoplusia ni,ovary,"TNM-FH and 10% FBS, or Express Five® SFM (serum-free)"
+insect,High Five (BTI-TN-5B1-4),,Trichoplusia ni,ovary,"TNM-FH and 10% FBS, or Express Five® SFM (serum-free)"
 insect,"Schneider 2 (S2)",,Drosophila melanogaster, ,Schneider’s Drosophila medium and 10% heat-inactivated FBS
