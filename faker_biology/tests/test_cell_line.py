@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Feb 13 10:27:03 2022
+"""test_cell_line.py in faker_biology/tests.
 
-@author: richard
+Created on Sun Feb 13 10:27:03 2022
+@author: jnirschl
 """
 
 import unittest
@@ -18,6 +17,14 @@ re_provider = CellLineProvider(None)
 
 
 class TestCellLineProvider(unittest.TestCase):
+    """Test CellLineProvider class."""
+
     def test_random_cell_line(self):
-        for i in range(10):
+        """Test return of random cell line."""
+        for _ in range(10):
             fake.cell_line()
+
+    def test_random_cell_line_human(self):
+        """Test that cell line returns a valid cell line filtered by species."""
+        for _ in range(10):
+            fake.cell_line(species="Homo sapiens")
