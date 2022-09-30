@@ -25,7 +25,7 @@ Standard code to access Faker
  fake.add_provider(CellType)
  fake.add_provider(Organ)
  fake.add_provider(Organelle)
- 
+
  fake.organ()
  # Sublingual glands
 
@@ -57,7 +57,7 @@ Standard code to access Faker
 
  fake.amino_acid()
  # AminoAcid(full_name='Glycine', three_letters_name='Gly', one_letter_name='G', mass=57)
- 
+
  fake.amino_acid_name()
  # Glycine
 
@@ -82,7 +82,7 @@ Standard code to access Faker
 
  fake.re()
  # EcoRI
- 
+
  fake.blunt()
  # SmaI
 
@@ -93,13 +93,13 @@ Standard code to access Faker
  # Ubiquitin carboxy-terminal hydrolase L1
 
 ```
-### Taxonomy 
+### Taxonomy
 
 ```python
  from faker_biology.taxonomy import ModelOrganism
 
  fake.add_provider(ModelOrganism)
- 
+
  fake.organism()
  # Fission yeast
 
