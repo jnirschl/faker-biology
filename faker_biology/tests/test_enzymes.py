@@ -22,9 +22,9 @@ class EnzymeTest(unittest.TestCase):
 
     def test_random_enzyme(self):
         total_enzyme_count = 150
-        enzymes = set([fake.unique.enzyme() for i in range(total_enzyme_count)])
+        enzymes = {fake.unique.enzyme() for _ in range(total_enzyme_count)}
         self.assertEqual(total_enzyme_count, len(enzymes))
 
     def test_random_category(self):
-        enzymes = set([fake.unique.enzyme_category() for i in range(50)])
+        enzymes = {fake.unique.enzyme_category() for _ in range(50)}
         self.assertEqual(50, len(enzymes))

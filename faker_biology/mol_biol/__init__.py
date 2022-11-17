@@ -69,9 +69,7 @@ class RestrictionEnzyme(BaseProvider):
         """
         keys = []
         if min_length > 0:
-            for k, v in rest_dict.items():
-                if v["size"] >= min_length:
-                    keys.append(k)
+            keys.extend(k for k, v in rest_dict.items() if v["size"] >= min_length)
         else:
             keys = rest_dict.keys()
         if len(keys) == 0:
@@ -92,10 +90,7 @@ class RestrictionEnzyme(BaseProvider):
         str
             Random blunt-end cutter.
         """
-        keys = []
-        for k, v in rest_dict.items():
-            if v["ovhg"] is None or v["ovhg"] == 0:
-                keys.append(k)
+        keys = [k for k, v in rest_dict.items() if v["ovhg"] is None or v["ovhg"] == 0]
         return self.random_element(keys)
 
     def sticky(self) -> str:
@@ -105,10 +100,12 @@ class RestrictionEnzyme(BaseProvider):
         str
             Random sticky-ended cutter.
         """
-        keys = []
-        for k, v in rest_dict.items():
-            if v["ovhg"] is not None and v["ovhg"] > 0:
-                keys.append(k)
+        keys = [
+            k
+            for k, v in rest_dict.items()
+            if v["ovhg"] is not None and v["ovhg"] > 0
+        ]
+
         return self.random_element(keys)
 
 
